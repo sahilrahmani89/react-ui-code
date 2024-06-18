@@ -1,0 +1,14 @@
+.single-box{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 25px;
+}
+.single-box.checked{
+    background-color: cadetblue;
+}
+.pointer{
+    cursor: pointer;
+}
+.no-pointer{
+    cursor: default;
+}
