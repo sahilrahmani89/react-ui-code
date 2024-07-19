@@ -5,7 +5,8 @@ const Homepage = () => {
   return (
     <div className='p-4 '>
         <div> <Link to={'/'}>Home</Link></div>
-        <div><Link to={'/box'}>Box</Link></div>
+        <div><Link to={'/box'}>Box As per 2d array o & 1</Link></div>
+        <div><Link to={'/comment-widget'}>Comment Widget</Link></div>
     </div>
   )
 }

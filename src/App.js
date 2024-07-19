@@ -3,6 +3,7 @@ import './App.css'
 import { Routes,Route } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import BoxClick from "./pages/BoxClick";
+import Comment from "./components/comment/Comment";
 
 
 
@@ -13,12 +14,16 @@ function App() {
     <>
       <Routes>
         <Route 
-          Component={Homepage} 
+          element={<Homepage/>} 
           path="/"
         />
         <Route 
-         Component={BoxClick} 
+         element={<BoxClick/>} 
          path="/box"
+        />
+        <Route
+          element={<Comment isRecursive={false} />}
+          path="/comment-widget"
         />
       </Routes>
     </>
