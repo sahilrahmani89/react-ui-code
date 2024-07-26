@@ -4,6 +4,7 @@ import { Routes,Route } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import BoxClick from "./pages/BoxClick";
 import Comment from "./components/comment/Comment";
+import CreateCircle from "./components/createCircle/CreateCircle";
 
 
 
@@ -25,6 +26,10 @@ function App() {
           element={<Comment isRecursive={false} />}
           path="/comment-widget"
         />
+        <Route
+         element ={<CreateCircle/>}
+         path="create-circle"
+         />
       </Routes>
     </>
   );
