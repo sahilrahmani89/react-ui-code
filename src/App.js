@@ -5,6 +5,7 @@ import Homepage from "./pages/Homepage";
 import BoxClick from "./pages/BoxClick";
 import Comment from "./components/comment/Comment";
 import CreateCircle from "./components/createCircle/CreateCircle";
+import Bar from "./components/bar/Bar";
 
 
 
@@ -29,6 +30,10 @@ function App() {
         <Route
          element ={<CreateCircle/>}
          path="create-circle"
+         />
+        <Route
+         element ={<Bar/>}
+         path="bar"
          />
       </Routes>
     </>

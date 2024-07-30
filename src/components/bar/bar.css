@@ -1,0 +1,47 @@
+.container{
+    position: relative;
+    width: 60%;
+    margin:0 auto;
+    height: 60vh;
+}
+.chart{
+    width: 100%;
+    height: 100%;
+    border:2px solid #000;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+.y-axis-label{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    margin-left: -20px;
+
+}
+.x-axis-label{
+    position: absolute;
+    left: 50%;
+    margin-top: 20px;
+}
+.singleBar{
+    flex: 1;
+    margin:0 5px;
+}
+.bar-content{
+    display: none;
+    transform: translate(0px, -30px);
+    transition: 1s;
+
+}
+.singleBar:hover .bar-content{
+    display: block;
+}
+@media (max-width:991px){
+    .container{
+        width: 90%;
+    }
+}
