@@ -9,8 +9,8 @@ const Homepage = () => {
         <div><Link to={'/comment-widget'}>Comment Widget</Link></div>
         <div><Link to={'/create-circle'}>Create Circle</Link></div>
         <div><Link to={'/bar'}>Bar</Link></div>
-
-
+        <div><Link to={'/pricemul'}>Price into 1 to 10 onchange</Link></div>
+        <div><Link to={'/mousecircle'}>MouseCircle</Link></div>
     </div>
   )
 }
