@@ -1,0 +1,11 @@
+button{
+    min-width: 100px;
+    padding: 10px 16px;
+    border:1px solid #eee;
+    background-color: bisque;
+    color: black;
+    cursor: pointer;
+}
+div>button{
+    margin-right: 5px;
+}

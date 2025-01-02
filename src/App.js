@@ -8,6 +8,7 @@ import CreateCircle from "./components/createCircle/CreateCircle";
 import Bar from "./components/bar/Bar";
 import PriceMul from "./pages/PriceMul";
 import MouseCircle from "./pages/MouseCircle";
+import StopWatch from "./components/stopwatch/StopWatch";
 
 
 
@@ -45,6 +46,10 @@ function App() {
          element ={<MouseCircle/>}
          path="/mousecircle"
          />
+         <Route
+          element={<StopWatch/>}
+          path="/stopwatch"
+        />
       </Routes>
     </>
   );

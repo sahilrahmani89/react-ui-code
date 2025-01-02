@@ -11,6 +11,7 @@ const Homepage = () => {
         <div><Link to={'/bar'}>Bar</Link></div>
         <div><Link to={'/pricemul'}>Price into 1 to 10 onchange</Link></div>
         <div><Link to={'/mousecircle'}>MouseCircle</Link></div>
+        <div><Link to={'/stopwatch'}>StopWatch</Link></div>
     </div>
   )
 }
