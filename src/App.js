@@ -9,6 +9,7 @@ import Bar from "./components/bar/Bar";
 import PriceMul from "./pages/PriceMul";
 import MouseCircle from "./pages/MouseCircle";
 import StopWatch from "./components/stopwatch/StopWatch";
+import TripleClick from "./components/tripleclick/TripleClick";
 
 
 
@@ -49,7 +50,12 @@ function App() {
          <Route
           element={<StopWatch/>}
           path="/stopwatch"
-        />
+         />
+         <Route
+          element={<TripleClick/>}
+          path="/tripleclick"
+         /> 
+         {/* when we click thrice time it should show UI on the basis of interval */}
       </Routes>
     </>
   );

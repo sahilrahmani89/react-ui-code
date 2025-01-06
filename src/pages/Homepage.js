@@ -12,6 +12,7 @@ const Homepage = () => {
         <div><Link to={'/pricemul'}>Price into 1 to 10 onchange</Link></div>
         <div><Link to={'/mousecircle'}>MouseCircle</Link></div>
         <div><Link to={'/stopwatch'}>StopWatch</Link></div>
+        <div><Link to={'/tripleclick'}>Triple Click</Link></div>
     </div>
   )
 }
